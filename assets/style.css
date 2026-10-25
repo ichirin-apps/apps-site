@@ -161,3 +161,6 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
 }
 
 a.email { word-break: break-all; }
+
+/* 箇条書きの行（文面の「・」「- 」はそのまま残し、字下げだけする） */
+p.item { padding-left: 1em; text-indent: -1em; margin-bottom: 4px; }
